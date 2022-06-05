@@ -97,7 +97,7 @@ a
 #container
 {
   width: 80%;
-  margin: auto;
+  margin: 10px auto;
   
 }
 #texto
@@ -107,7 +107,6 @@ a
   height: 400px;
   display: inline-block;
   margin: 0;
-  float:left;
   margin-left: 30px;
   position: relative;
 }
@@ -118,7 +117,6 @@ a
   height: 400px;
   display: inline-block;
   margin: 0;
-  float: right;
   margin-right: 30px;
   position: relative;
 }
@@ -170,7 +168,8 @@ a
   position: relative;
   top: -150px;
   text-align: center;
-  font-family: 'Oswald', sans-serif;;
+  font-family: 'Oswald', sans-serif;
+  color: #236e5e;
 }
 #img3 p
 { 
@@ -198,7 +197,8 @@ a
   position: relative;
   top: -150px;
   text-align: center;
-  font-family: 'Oswald', sans-serif;;
+  font-family: 'Oswald', sans-serif;
+  color: #114d69;
 }
 #img4 p
 { 
@@ -307,6 +307,61 @@ a
   position: relative;
   left: 30px;
 }
+
+/*formatando rodape*/
+
+#rodape
+{
+  width: 100%;
+  height: 200px;
+  background-color: #85d3c2;
+  margin: 0;
+  position: absolute;
+}
+#logo-rodape
+{ 
+  color: #236e5e;
+  font-family: 'Oswald', sans-serif;
+  display: block;
+  text-align: center;
+  padding-top: 40px;
+  letter-spacing: 3px;
+}
+
+#menu-rodape
+{
+  padding: 5px ;
+  margin-top: 15px;
+  
+}
+#menu-rodape li
+{
+  display: inline;
+  margin: 30px;
+}
+#menu-rodape li a
+{
+  color: #236e5e;
+  position: relative;
+  left: 36%;
+  font-family: 'Oswald', sans-serif;
+}
+#menu-rodape li a:hover
+{
+  border-bottom: 1px solid #236e5e;
+}
+
+#redes-sociais
+{
+  position: relative;
+  padding-top: 25px;
+  left: 44%;
+}
+#redes-sociais img
+{
+  margin: 5px;
+}
+
 
 .clear
 {

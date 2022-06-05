@@ -248,18 +248,65 @@ a
 
 #depoimentos
 { 
-  border: 1px solid red;
-  height: 500px;
+  
+  height: 100%;
   text-align: center;
+}
+#depoimentos h2
+{
+  color: #ccc;
+  padding-top: 40px;
+  font-family: 'Special Elite', cursive;
+  font-size: 2em;
 }
 .depoimento
 { 
-  border: 1px solid red;
   width: 200px;
-  height: 400px;
+  height: 300px;
+  padding: 30px;
+  margin: 10px;
+  display: inline-block;
+  position: relative;
+  top: 50px;
 }
-
-
+.depoimento img
+{
+  border-radius: 50%;
+}
+.depoimento p
+{
+  text-align: center;
+  padding: 10px 15px;
+}
+.depoimento h4
+{
+  padding-top: 10px;
+  
+}
+.depoimento .legenda
+{
+  padding-top: 10px;
+  font-size: 12px;
+  
+}
+#galeria
+{
+  padding-top: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+.foto
+{ 
+  width: 250px;
+  height: 350px;
+}
+.fotos
+{
+  display: inline-block;
+  margin:0;
+  position: relative;
+  left: 30px;
+}
 
 .clear
 {

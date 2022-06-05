@@ -15,12 +15,15 @@ a
   text-decoration: none;
 }
 
+/*formatando topo*/
+
 #topo
 {
   height: 550px;
   background: url("../imagens/image-header.jpg") bottom center;
   background-size: cover;
   position: relative;
+  width: 100%;
 }
 #logo
 {
@@ -62,24 +65,206 @@ a
   text-transform: uppercase;
   font-size: 12px;
 }
-#titulo
+.conteudo-titulo
 {
-  float: left;
+  position: absolute;
+  left: 0;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+}
+.conteudo-titulo span.titulo
+{
   color: #fff;
-  position: relative;
-  right: 500px;
-  top: 80px;
+  font-size: 40px;
   font-family: 'Special Elite', cursive;
-  font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  
 }
+
 #seta
-{ 
-  
-  position: relative;
-  right: 690px;
-  top: 150px;
-  display: inline;
+{
+  display: inline-block;
 }
+#img-seta
+{
+  position: absolute;
+  height: 80px;
+  left: 50%;
+  top: 30%;
+}
+
+/*formatando conteúdo*/
+
+#container
+{
+  width: 80%;
+  margin: auto;
+  
+}
+#texto
+{
+  background-color: #fffacd7e;
+  width: 500px;
+  height: 400px;
+  display: inline-block;
+  margin: 0;
+  float:left;
+  margin-left: 30px;
+  position: relative;
+}
+#texto2
+{
+  background-color: rgba(255, 250, 205, 0.493);
+  width: 500px;
+  height: 400px;
+  display: inline-block;
+  margin: 0;
+  float: right;
+  margin-right: 30px;
+  position: relative;
+}
+
+#img
+{
+  background-color: lightgray;
+  float: right;
+  width: 500px;
+  height: 400px;
+  margin: 0;
+  margin-right: 30px;
+}
+#img img 
+{
+  width: 500px;
+  height: 400px;
+}
+#img2
+{
+  background-color: lightgray;
+  float: left;
+  width: 500px;
+  height: 400px;
+  margin: 0;
+  margin-left: 30px;
+}
+#img2 img 
+{
+  width: 500px;
+  height: 400px;
+}
+#img3
+{
+  background-color: lightgray;
+  float: left;
+  width: 500px;
+  height: 400px;
+  margin: 0;
+  margin-left: 30px;
+}
+#img3 img 
+{
+  width: 500px;
+  height: 400px;
+}
+#img3 h3
+{
+  position: relative;
+  top: -150px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;;
+}
+#img3 p
+{ 
+  position: relative;
+  top: -150px;
+  padding: 10px 60px;
+  text-align: center;
+}
+#img4
+{
+  background-color: lightgray;
+  float: right;
+  width: 500px;
+  height: 400px;
+  margin: 0;
+  margin-right: 30px;
+}
+#img4 img 
+{
+  width: 500px;
+  height: 400px;
+}
+#img4 h3
+{
+  position: relative;
+  top: -150px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;;
+}
+#img4 p
+{ 
+  position: relative;
+  top: -150px;
+  padding: 10px 60px;
+  text-align: center;
+}
+.conteudo-texto 
+{
+  
+  padding: 40px 100px;
+  position: absolute;
+  top: 100px;
+  margin: 0;
+}
+.conteudo-texto h2
+{
+  padding-bottom: 10px;
+  font-family: 'Special Elite', cursive;
+}
+.conteudo-texto p
+{
+  padding: 5px;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+.conteudo-texto a
+{
+  font-family: 'Oswald', sans-serif;
+  color: #000;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 12px;
+}
+.conteudo-texto a:hover
+{
+  background-color: #000;
+  padding: 5px;
+  border-radius: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+/*formatação depoimentos clientes*/
+
+#depoimentos
+{ 
+  border: 1px solid red;
+  height: 500px;
+  text-align: center;
+}
+.depoimento
+{ 
+  border: 1px solid red;
+  width: 200px;
+  height: 400px;
+}
+
+
+
+.clear
+{
+  clear: both;
+}
+
+
+

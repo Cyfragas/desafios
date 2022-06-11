@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  background: lightcyan;
+}
+#caixa
+{ 
+  width: 350px;
+  height: 550px;
+  position: relative;
+  left: 500px;
+  top: 50px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+#code
+{
+  width: 300px;
+  height: 480px;
+  position: relative;
+  left: 24px;
+  top: 30px;
+}
+#code img
+{
+  border-radius: 10px;
+}
+#code h3
+{
+  text-align: center;
+  padding-top: 10px;
+  font-family: monospace;
+  font-size: 18px;
+}
+#code p
+{
+  text-align: center;
+  padding: 10px 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
